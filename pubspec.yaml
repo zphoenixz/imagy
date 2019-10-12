@@ -19,10 +19,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  spring_button: 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  flutter_staggered_grid_view: "^0.2.7"
+
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +69,16 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+  fonts:
+    - family: Cereal
+      fonts:
+        - asset: assets/fonts/AirbnbCereal-Black.ttf
+        - asset: assets/fonts/AirbnbCereal-Bold.ttf
+        - asset: assets/fonts/AirbnbCereal-Book.ttf
+        - asset: assets/fonts/AirbnbCereal-ExtraBold.ttf
+        - asset: assets/fonts/AirbnbCereal-Light.ttf
+        - asset: assets/fonts/AirbnbCereal-Medium.ttf
+          style: italic
+          weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
